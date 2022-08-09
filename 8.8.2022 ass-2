@@ -1,0 +1,35 @@
+#include<stdio.h>
+main()
+{
+	int n,r,t,sum=0;
+	printf("enter any number");
+	scanf("%d",&n);
+	t=n;
+	while(n>0)
+	{
+		r=n%10;
+		sum=(sum+(r*r*r));
+		n=n/10;
+	}
+	if(t==sum)
+	printf("ARMSTRONG NUMBER");
+	else
+	printf("NOT ARMSTRONG NUMBER");
+}
+
+
+output 1:-
+
+enter any number 153
+ARMSTRONG NUMBER
+--------------------------------
+Process exited after 3.199 seconds with return value 0
+Press any key to continue . . .
+ 
+output 2:-
+
+enter any number 457
+NOT ARMSTRONG NUMBER
+--------------------------------
+Process exited after 2.862 seconds with return value 0
+Press any key to continue . . .
