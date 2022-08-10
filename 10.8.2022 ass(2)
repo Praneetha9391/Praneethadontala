@@ -1,0 +1,39 @@
+#include<stdio.h>
+main()
+{
+	int n,x,y,r,sum=0,count=1;
+	printf("enter any number");
+	scanf("%d",&n);
+	printf("enter values of x and y");
+	scanf("%d%d",&x,&y);
+	while(n>0)
+	{
+		r=n%10;
+		if(r==x)
+		{
+		sum=(sum+(y*count)); 
+		count=count*10;
+	}
+	else
+	
+{
+
+	
+		sum=(sum+(r*count));
+		count=count*10;
+	}
+	n=n/10;
+}
+printf("%d\n",sum);
+}
+
+output 1:-
+
+enter any number 12341
+enter values of x and y 1
+7
+72347
+
+--------------------------------
+Process exited after 10.24 seconds with return value 0
+Press any key to continue . . .
