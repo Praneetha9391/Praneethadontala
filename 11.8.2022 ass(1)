@@ -1,0 +1,31 @@
+#include<stdio.h>
+main()
+{
+	int n,r,sum=0,pro=1;
+	printf("enter any number");
+	scanf("%d",&n);
+	while(n>0)
+	{
+		r=n%10;
+		sum=sum+r;
+		pro=pro*r;
+		n=n/10;
+	}
+	printf("%d",pro-sum);
+}
+
+output 1:-
+
+enter any number 234
+15
+--------------------------------
+Process exited after 2.587 seconds with return value 0
+Press any key to continue . . .
+
+output 2:-
+
+enter any number 541
+10
+--------------------------------
+Process exited after 5.401 seconds with return value 0
+Press any key to continue . . .
