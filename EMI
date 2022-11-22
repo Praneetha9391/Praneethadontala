@@ -1,0 +1,15 @@
+p=int(input('enter principle amount'))
+t=int(input('enter time period'))
+r=int(input('enter rate of intrest'))
+SI=(p*t*r)/100
+emi=(SI+p)/t
+print('EMI is:',emi)
+
+
+output:-
+
+enter principle amount 10000
+enter time period10
+enter rate of intrest3
+EMI is: 1300.0
+>>> 
