@@ -1,0 +1,17 @@
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+a=a+b
+b=a-b
+a=a-b
+print('value of a is:',a)
+print('value of b is:',b)      
+
+
+output:-
+
+=========================================================== RESTART: C:\Users\win\AppData\Local\Programs\Python\Python39\swap.py ===========================================================
+enter a: 5
+enter b:7
+value of a is: 7
+value of b is: 5
+>>> 
