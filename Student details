@@ -1,0 +1,29 @@
+sno=int(input('enter S.no:'))
+name=input('enter student name:')
+gen=input('enter gender of student:')
+grp=input('enter group')
+add=input('enter address')
+pno=int(input('enter phone number'))
+print('S.No:',sno)
+print('Name:',name)
+print('gender:',gen)
+print('group:',grp)
+print('address:',add)
+print('phone number:',pno)        
+
+
+output:-
+
+========================================================== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/student.py =========================================================
+enter S.no:1
+enter student name:praneetha
+enter gender of student:female
+enter groupbsc
+enter addresssimhachalam
+enter phone number93926356768
+S.No: 1
+Name: praneetha
+gender: female
+group: bsc
+address: simhachalam
+phone number: 93926356768
