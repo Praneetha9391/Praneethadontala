@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+	int a=10,b=4,add,sub;
+	float c=7.2,d=3.1,sum,minus;
+	add=a+b;
+	sub=a-b;
+	printf("%d\t%d",add,sub);
+	sum=c+d;
+	minus=c-d;
+	printf("\n%0.1f\t%0.1f",sum,minus);
+	
+	
+}
