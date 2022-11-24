@@ -1,0 +1,49 @@
+sno=int(input('enter sno:'))
+name=input('enter name of the student:')
+grp=input('enter group of the student:')
+s1=int(input('enter marks of subject 1:'))
+s2=int(input('enter marks of subject 2:'))         
+s3=int(input('enter marks of subject 3:'))
+print('SNo',sno)
+print('Name',name)
+print('group',grp)
+print('subject 1',s1)
+print('subject 2',s2)
+print('subject 3',s3)
+print('passed') if (s1>=35 and s2>=35 and s3>=35) else print('failed')
+
+output 1:-
+
+= RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/pass or fail.py =
+enter sno:1
+enter name of the student:praneetha
+enter group of the student:bsc
+enter marks of subject 1:78
+enter marks of subject 2:98
+enter marks of subject 3:67
+SNo 1
+Name praneetha
+group bsc
+subject 1 78
+subject 2 98
+subject 3 67
+passed
+>>> 
+
+output 2:
+
+
+= RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/pass or fail.py =
+enter sno:2
+enter name of the student:priya
+enter group of the student:bsc
+enter marks of subject 1:67
+enter marks of subject 2:56
+enter marks of subject 3:21
+SNo 2
+Name priya
+group bsc
+subject 1 67
+subject 2 56
+subject 3 21
+failed
