@@ -1,0 +1,25 @@
+a=int(input('enter value of a'))
+b=int(input('enter value of b'))
+c=a+b
+d=a-b
+e=a*b
+f=a/b
+g=a%d
+print('addition of the numbers is:',c)
+print('substraction of the numbers is:',d)
+print('multiplication of the numbers is:',e)
+print('division of the numbers is:',f)
+print('remainder of the numbers is:',g)            
+            
+
+output:-
+
+== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/arithmetic.py ==
+enter value of a3
+enter value of b4
+addition of the numbers is: 7
+substraction of the numbers is: -1
+multiplication of the numbers is: 12
+division of the numbers is: 0.75
+remainder of the numbers is: 0
+>>> 
