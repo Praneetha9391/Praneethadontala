@@ -1,0 +1,13 @@
+list=[1,3,2,4,7,8,56,43,22,52]
+num=int(input('enter any number'))
+if num in list:
+ print('number is in list')
+else:
+ print('number is not in list')
+ 
+ output:
+ 
+ =========================================================== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/list.py ===========================================================
+enter any number 5
+number is not in list
+>>> 
