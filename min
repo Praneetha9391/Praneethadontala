@@ -1,0 +1,14 @@
+list=[67,23,98,12,3,90]
+min=list[0]
+for i in list:
+    if i<min:
+        min=i
+print("minimum value is",min)
+
+
+output:-
+
+====== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/min.py =====
+minimum value is 3
+>>> 
+
