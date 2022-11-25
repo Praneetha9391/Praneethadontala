@@ -1,0 +1,12 @@
+list=[23,56,12,67,98]
+sum=0
+for i in list:
+    if i%2==0:
+        sum=sum+i
+print("the even sum is",sum)        
+
+
+output:-
+=== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/list sum.py ===
+the even sum is 166
+>>> 
