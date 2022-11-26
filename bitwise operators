@@ -1,0 +1,21 @@
+a=int(input("enter value of a"))
+b=int(input("enter value of b"))
+print("result of bitwise and is")
+print(a&b)
+print("result of bitwise or is")
+print(a|b)
+print("result of bitwise exclusive or is")
+print(a^b)
+
+
+output:-
+
+==== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/bitwise.py ===
+enter value of a10
+enter value of b12
+result of bitwise and is
+8
+result of bitwise or is
+14
+result of bitwise exclusive or is
+6
