@@ -1,0 +1,23 @@
+num=int(input("enetr any number"))
+if(num<100):
+    print("Number is less than 100")
+elif (num==100):
+        print("Number is equal to 100")
+else:
+            print("Number is greater than 100")
+
+
+output:-
+
+==== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/greater.py ===
+enetr any number 45
+Number is less than hundred
+>>> 
+==== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/greater.py ===
+enetr any number200
+Number is greater than 100
+>>> 
+= RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/greater.py
+enetr any number 100
+Number is equal to 100
+>>> 
