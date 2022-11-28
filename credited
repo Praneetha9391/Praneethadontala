@@ -1,0 +1,23 @@
+Balance=10000
+credited=int(input("Enter the amount to be credited"))
+print("CREDITED AMOUNT=",credited)
+print("REMAINING BALANCE=",Balance+credited)
+
+
+output:
+
+= RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/credited.py
+Enter the amount to be credited 5000
+CREATED AMOUNT= 5000
+REMAINING BALANCE= 15000
+>>> 
+= RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/credited.py
+Enter the amount to be credited50000
+CREDITED AMOUNT= 50000
+REMAINING BALANCE= 60000
+>>> 
+= RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/credited.py
+Enter the amount to be credited12
+CREDITED AMOUNT= 12
+REMAINING BALANCE= 10012
+>>> 
