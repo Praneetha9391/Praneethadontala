@@ -1,0 +1,16 @@
+pin=int(input("Enter your pin number"))
+if(pin==1280):
+    print("Continue the transaction")
+else:
+    print("Incorrect pin number")
+    print("Please try again")
+
+output:
+====== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/pin.py =====
+Enter your pin number4567
+Incorrect pin number
+Please try again
+>>> 
+====== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/pin.py =====
+Enter your pin number 1280
+Continue the transaction
