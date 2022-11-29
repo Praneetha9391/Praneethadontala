@@ -1,0 +1,27 @@
+output:
+
+a=int(input("Enter value of a"))
+b=int(input("Enter value of b"))
+c=int(input("Enter value of c"))
+d=int(input("Enter value of d"))
+if a>b:
+    if a>c:
+        if a>d:
+            print("a is big")
+elif b>c:
+    if c>d:
+        print("b is big")
+elif c>d:
+    print("c is big")
+else:
+    print("d is big")
+        
+        
+output:
+
+==== RESTART: C:\Users\win\AppData\Local\Programs\Python\Python39\biggest.py ===
+Enter value of a 56
+Enter value of b 78
+Enter value of c 43 
+Enter value of d 23
+b is big
