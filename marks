@@ -1,0 +1,41 @@
+sno=int(input("Enter student number"))
+sname=input("Enter student name")
+grp=input("Entre group of the student")
+print("STUDENT NUMBER=",sno)
+print("NAME=",sname)
+print("GROUP=",grp)
+s1=int(input("Enter subject 1"))
+s2=int(input("Enter subject 2"))
+s3=int(input("Enter subject 3"))
+if(s1>=35 and s2>=35 and s3>=35):
+    print("PASS")
+else:
+    print("FAIL")
+
+output:
+
+===== RESTART: C:\Users\win\AppData\Local\Programs\Python\Python39\marks.py ====
+Enter student number 456
+Enter student name ram
+Entre group of the student maircs
+STUDENT NUMBER= 456
+NAME=  ram
+GROUP=  maircs
+Enter subject 1 65
+Enter subject 2 32
+Enter subject 3 67
+FAIL
+>>> 
+===== RESTART: C:\Users\win\AppData\Local\Programs\Python\Python39\marks.py ====
+Enter student number 321
+Enter student name devi
+Entre group of the student maircs
+STUDENT NUMBER= 321
+NAME=  devi
+GROUP=  maircs
+Enter subject 1 67
+Enter subject 2 78
+Enter subject 3 92
+PASS
+>>> 
+
