@@ -1,0 +1,18 @@
+num=int(input("enter any number"))
+s=0
+t=num
+while(num!=0):
+    r=num%10
+    s=(s+(r*r*r))
+    num=num//10
+if(t==s):
+    print("The given number is armstrong")
+else:
+    print("The number is not armstrong")
+    
+
+output:
+
+========================================================= RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/armstrong.py ========================================================
+enter any number 153
+The given number is armstrong
