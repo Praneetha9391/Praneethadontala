@@ -1,0 +1,19 @@
+num=int(input("Enter any number"))
+s=0
+t=num
+while(num!=0):
+    r=num%10
+    s=(s*10)+r
+    num=num//10
+if(t==s):
+    print("The number is palandrome")
+else:
+    print("The number is not palandrome")
+
+
+output:
+
+======================================================== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/palandrome.py ========================================================
+Enter any number 121
+The number is palandrome
+>>> 
