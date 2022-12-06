@@ -1,0 +1,14 @@
+num=int(input("Enter any number"))
+s=0
+while(num!=0):
+    rem=num%10
+    s=(s*10)+rem
+    num=num//10
+print("The Reverse number is",s)
+
+output:
+
+========================================================== RESTART: C:/Users/win/AppData/Local/Programs/Python/Python39/reverse.py =========================================================
+Enter any number 1234
+The Reverse number is 4321
+>>> 
